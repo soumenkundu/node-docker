@@ -1,0 +1,30 @@
+
+
+****https://docs.docker.com/language/nodejs/build-images/
+https://docs.docker.com/get-started/
+
+
+
+
+
+https://www.youtube.com/watch?v=RppfZGuLsmA
+ubuntu
+sudo apt-get update
+sudo apt-get install docker.io
+docker --version
+sudo sudo docker pull ubuntu
+sudo docker images
+sudo docker run -it -d ubuntu
+sudo docker ps //all dockers running on docker
+sudo docker stop
+sudo docker ps -a //all dockers running and all dockers exists (stop states as well)
+sudo docker exec -it {container id} bash
+exist
+sudo docker ps
+sudo docker stop {container id}
+sudo docker ps
+sudo docker kill {container id}
+sudo docker rm {container id}
+sudo docker images
+sudo docker rmi {image id}
+sudo docker images
